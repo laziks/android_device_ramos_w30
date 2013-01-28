@@ -20,5 +20,5 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-add_lunch_combo full_w30-userdebug
-add_lunch_combo cm_w30-userdebug
+add_lunch_combo full_w30hd-userdebug
+add_lunch_combo cm_w30hd-userdebug
