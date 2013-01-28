@@ -24,11 +24,11 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # This is where we'd set a backup provider if we had one
-$(call inherit-product, device/ramos/w30/w30.mk)
+$(call inherit-product, device/ramos/w30hd/w30hd.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := full_w30
-PRODUCT_DEVICE := w30
+PRODUCT_NAME := full_w30hd
+PRODUCT_DEVICE := w30hd
 PRODUCT_BRAND := Ramos
 PRODUCT_MANUFACTURER := Ramos
-PRODUCT_MODEL := W30
+PRODUCT_MODEL := W30HD
