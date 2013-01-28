@@ -25,7 +25,7 @@ TARGET_BOOTLOADER_BOARD_NAME := smdk
 # Kernel
 # TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 # TARGET_KERNEL_CONFIG := cyanogenmod_i9300_defconfig
-TARGET_PREBUILT_KERNEL := device/ramos/w30/kernel
+TARGET_PREBUILT_KERNEL := device/ramos/w30hd/kernel
 
 # Wifi
 WIFI_DRIVER := mt6620
@@ -36,4 +36,4 @@ WIFI_DRIVER_MODULE_NAME := "wlan"
 BOARD_HAVE_SAMSUNG_BLUETOOTH := false
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := smdk4x12,W30,w30
+TARGET_OTA_ASSERT_DEVICE := smdk4x12,W30HD,w30hd
